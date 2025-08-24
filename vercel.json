@@ -1,6 +1,6 @@
 {
   "framework": "nextjs",
-  "installCommand": "cd iconmain && (npm ci || npm install)",
+  "installCommand": "cd iconmain && npm install",
   "buildCommand": "cd iconmain && npm run build",
   "devCommand": "npm run dev",
   "regions": ["iad1"],
