@@ -1,9 +1,14 @@
-"use client";
-
+import type { Metadata } from "next";
 import ImageWithFallback from "../components/ImageWithFallback";
 import Link from "next/link";
 import Analytics from "../components/Analytics";
 import ArticleSchema from "../components/ArticleSchema";
+
+export const metadata: Metadata = {
+  title: "West Valley City Dumpster Rental Guide 2025 | Icon Dumpsters",
+  description: "Affordable, reliable dumpster rental in West Valley City. Sizes, pricing, permits, and local tips for a smooth 2025 cleanup.",
+  alternates: { canonical: "/west-valley-city-dumpster-rental-guide-2025" }
+};
 
 export default function WestValleyCityDumpsterGuide() {
   return (
