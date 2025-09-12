@@ -1,0 +1,319 @@
+2025-09-11 15:14:04,860 - INFO - Existing leads table columns: ['id', 'source_url', 'company_name', 'contact_name', 'phone', 'email', 'website', 'address', 'city', 'state', 'zip_code', 'services', 'lead_score', 'lead_status', 'lead_source', 'notes', 'created_date', 'last_contacted', 'next_follow_up', 'contact_history']
+2025-09-11 15:14:04,891 - INFO - Database initialized successfully
+2025-09-11 15:18:51,724 - INFO - Existing leads table columns: ['id', 'source_url', 'company_name', 'contact_name', 'phone', 'email', 'website', 'address', 'city', 'state', 'zip_code', 'services', 'lead_score', 'lead_status', 'lead_source', 'notes', 'created_date', 'last_contacted', 'next_follow_up', 'contact_history']
+2025-09-11 15:18:51,774 - INFO - Database initialized successfully
+2025-09-11 15:37:31,538 - INFO - Existing leads table columns: ['id', 'source_url', 'company_name', 'contact_name', 'phone', 'email', 'website', 'address', 'city', 'state', 'zip_code', 'services', 'lead_score', 'lead_status', 'lead_source', 'notes', 'created_date', 'last_contacted', 'next_follow_up', 'contact_history']
+2025-09-11 15:37:31,539 - INFO - Database initialized successfully
+2025-09-11 15:40:18,423 - INFO - Existing leads table columns: ['id', 'source_url', 'company_name', 'contact_name', 'phone', 'email', 'website', 'address', 'city', 'state', 'zip_code', 'services', 'lead_score', 'lead_status', 'lead_source', 'notes', 'created_date', 'last_contacted', 'next_follow_up', 'contact_history']
+2025-09-11 15:40:18,424 - INFO - Database initialized successfully
+2025-09-11 15:42:08,092 - INFO - Existing leads table columns: ['id', 'source_url', 'company_name', 'contact_name', 'phone', 'email', 'website', 'address', 'city', 'state', 'zip_code', 'services', 'lead_score', 'lead_status', 'lead_source', 'notes', 'created_date', 'last_contacted', 'next_follow_up', 'contact_history']
+2025-09-11 15:42:08,092 - INFO - Database initialized successfully
+2025-09-11 15:43:14,673 - INFO - Existing leads table columns: ['id', 'source_url', 'company_name', 'contact_name', 'phone', 'email', 'website', 'address', 'city', 'state', 'zip_code', 'services', 'lead_score', 'lead_status', 'lead_source', 'notes', 'created_date', 'last_contacted', 'next_follow_up', 'contact_history']
+2025-09-11 15:43:14,674 - INFO - Database initialized successfully
+2025-09-11 15:44:03,608 - INFO - Existing leads table columns: ['id', 'source_url', 'company_name', 'contact_name', 'phone', 'email', 'website', 'address', 'city', 'state', 'zip_code', 'services', 'lead_score', 'lead_status', 'lead_source', 'notes', 'created_date', 'last_contacted', 'next_follow_up', 'contact_history']
+2025-09-11 15:44:03,609 - INFO - Database initialized successfully
+2025-09-11 15:44:03,609 - INFO - Starting enhanced lead generation...
+2025-09-11 15:44:03,609 - INFO - Generating construction leads...
+2025-09-11 15:44:03,610 - INFO - Scraping construction permits using logged-in browser sessions...
+2025-09-11 15:44:03,610 - INFO - Starting logged-in browser scraping for reddit
+2025-09-11 15:44:03,610 - INFO - Browser will stay open for manual interaction
+2025-09-11 15:44:57,758 - ERROR - Error saving cookies: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d2dbfc95+79861]
+	GetHandleVerifier [0x0x7ff7d2dbfcf0+79952]
+	(No symbol) [0x0x7ff7d2b3cada]
+	(No symbol) [0x0x7ff7d2b28995]
+	(No symbol) [0x0x7ff7d2b4dbda]
+	(No symbol) [0x0x7ff7d2bc4346]
+	(No symbol) [0x0x7ff7d2be48c2]
+	(No symbol) [0x0x7ff7d2bbc8b3]
+	(No symbol) [0x0x7ff7d2b85272]
+	(No symbol) [0x0x7ff7d2b86043]
+	GetHandleVerifier [0x0x7ff7d307b9cd+2946349]
+	GetHandleVerifier [0x0x7ff7d3075c4a+2922410]
+	GetHandleVerifier [0x0x7ff7d30959d7+3052855]
+	GetHandleVerifier [0x0x7ff7d2ddaa7e+189918]
+	GetHandleVerifier [0x0x7ff7d2de2a1f+222591]
+	GetHandleVerifier [0x0x7ff7d2dc8ab4+116244]
+	GetHandleVerifier [0x0x7ff7d2dc8c69+116681]
+	GetHandleVerifier [0x0x7ff7d2daf048+11176]
+	BaseThreadInitThunk [0x0x7ffa51f47374+20]
+	RtlUserThreadStart [0x0x7ffa529dcc91+33]
+
+2025-09-11 15:44:57,759 - INFO - Scraping https://www.reddit.com/r/HomeImprovement/search?q=construction&sort=new&t=week
+2025-09-11 15:44:57,760 - ERROR - Error scraping https://www.reddit.com/r/HomeImprovement/search?q=construction&sort=new&t=week: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d2dbfc95+79861]
+	GetHandleVerifier [0x0x7ff7d2dbfcf0+79952]
+	(No symbol) [0x0x7ff7d2b3c8fc]
+	(No symbol) [0x0x7ff7d2b8438d]
+	(No symbol) [0x0x7ff7d2bbc9a2]
+	(No symbol) [0x0x7ff7d2bb7374]
+	(No symbol) [0x0x7ff7d2bb642a]
+	(No symbol) [0x0x7ff7d2b07075]
+	GetHandleVerifier [0x0x7ff7d307b9cd+2946349]
+	GetHandleVerifier [0x0x7ff7d3075c4a+2922410]
+	GetHandleVerifier [0x0x7ff7d30959d7+3052855]
+	GetHandleVerifier [0x0x7ff7d2ddaa7e+189918]
+	GetHandleVerifier [0x0x7ff7d2de2a1f+222591]
+	(No symbol) [0x0x7ff7d2b0602c]
+	GetHandleVerifier [0x0x7ff7d31ae3f8+4202328]
+	BaseThreadInitThunk [0x0x7ffa51f47374+20]
+	RtlUserThreadStart [0x0x7ffa529dcc91+33]
+
+2025-09-11 15:44:57,761 - INFO - Scraping https://www.reddit.com/r/Construction/search?q=utah&sort=new&t=week
+2025-09-11 15:44:57,762 - ERROR - Error scraping https://www.reddit.com/r/Construction/search?q=utah&sort=new&t=week: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d2dbfc95+79861]
+	GetHandleVerifier [0x0x7ff7d2dbfcf0+79952]
+	(No symbol) [0x0x7ff7d2b3c8fc]
+	(No symbol) [0x0x7ff7d2b8438d]
+	(No symbol) [0x0x7ff7d2bbc9a2]
+	(No symbol) [0x0x7ff7d2bb7374]
+	(No symbol) [0x0x7ff7d2bb642a]
+	(No symbol) [0x0x7ff7d2b07075]
+	GetHandleVerifier [0x0x7ff7d307b9cd+2946349]
+	GetHandleVerifier [0x0x7ff7d3075c4a+2922410]
+	GetHandleVerifier [0x0x7ff7d30959d7+3052855]
+	GetHandleVerifier [0x0x7ff7d2ddaa7e+189918]
+	GetHandleVerifier [0x0x7ff7d2de2a1f+222591]
+	(No symbol) [0x0x7ff7d2b0602c]
+	GetHandleVerifier [0x0x7ff7d31ae3f8+4202328]
+	BaseThreadInitThunk [0x0x7ffa51f47374+20]
+	RtlUserThreadStart [0x0x7ffa529dcc91+33]
+
+2025-09-11 15:44:57,763 - INFO - Scraping https://www.reddit.com/r/SaltLakeCity/search?q=construction&sort=new&t=week
+2025-09-11 15:44:57,764 - ERROR - Error scraping https://www.reddit.com/r/SaltLakeCity/search?q=construction&sort=new&t=week: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d2dbfc95+79861]
+	GetHandleVerifier [0x0x7ff7d2dbfcf0+79952]
+	(No symbol) [0x0x7ff7d2b3c8fc]
+	(No symbol) [0x0x7ff7d2b8438d]
+	(No symbol) [0x0x7ff7d2bbc9a2]
+	(No symbol) [0x0x7ff7d2bb7374]
+	(No symbol) [0x0x7ff7d2bb642a]
+	(No symbol) [0x0x7ff7d2b07075]
+	GetHandleVerifier [0x0x7ff7d307b9cd+2946349]
+	GetHandleVerifier [0x0x7ff7d3075c4a+2922410]
+	GetHandleVerifier [0x0x7ff7d30959d7+3052855]
+	GetHandleVerifier [0x0x7ff7d2ddaa7e+189918]
+	GetHandleVerifier [0x0x7ff7d2de2a1f+222591]
+	(No symbol) [0x0x7ff7d2b0602c]
+	GetHandleVerifier [0x0x7ff7d31ae3f8+4202328]
+	BaseThreadInitThunk [0x0x7ffa51f47374+20]
+	RtlUserThreadStart [0x0x7ffa529dcc91+33]
+
+2025-09-11 15:44:57,767 - ERROR - Error saving cookies: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d2dbfc95+79861]
+	GetHandleVerifier [0x0x7ff7d2dbfcf0+79952]
+	(No symbol) [0x0x7ff7d2b3c8fc]
+	(No symbol) [0x0x7ff7d2b8438d]
+	(No symbol) [0x0x7ff7d2bbc9a2]
+	(No symbol) [0x0x7ff7d2bb7374]
+	(No symbol) [0x0x7ff7d2bb642a]
+	(No symbol) [0x0x7ff7d2b07075]
+	GetHandleVerifier [0x0x7ff7d307b9cd+2946349]
+	GetHandleVerifier [0x0x7ff7d3075c4a+2922410]
+	GetHandleVerifier [0x0x7ff7d30959d7+3052855]
+	GetHandleVerifier [0x0x7ff7d2ddaa7e+189918]
+	GetHandleVerifier [0x0x7ff7d2de2a1f+222591]
+	(No symbol) [0x0x7ff7d2b0602c]
+	GetHandleVerifier [0x0x7ff7d31ae3f8+4202328]
+	BaseThreadInitThunk [0x0x7ffa51f47374+20]
+	RtlUserThreadStart [0x0x7ffa529dcc91+33]
+
+2025-09-11 15:44:59,785 - INFO - Found 0 leads from reddit
+2025-09-11 15:44:59,785 - INFO - Starting logged-in browser scraping for craigslist
+2025-09-11 15:44:59,785 - INFO - Browser will stay open for manual interaction
+2025-09-11 15:45:03,457 - INFO - Loaded cookies for craigslist
+2025-09-11 15:45:03,458 - INFO - Scraping https://saltlakecity.craigslist.org/search/sss?query=construction+services
+2025-09-11 15:45:06,187 - ERROR - Error scraping https://saltlakecity.craigslist.org/search/sss?query=construction+services: Message: move target out of bounds
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d2dbfc95+79861]
+	GetHandleVerifier [0x0x7ff7d2dbfcf0+79952]
+	(No symbol) [0x0x7ff7d2b3c8fc]
+	(No symbol) [0x0x7ff7d2bf03fc]
+	(No symbol) [0x0x7ff7d2bbcada]
+	(No symbol) [0x0x7ff7d2be4f8b]
+	(No symbol) [0x0x7ff7d2bbc8b3]
+	(No symbol) [0x0x7ff7d2b85272]
+	(No symbol) [0x0x7ff7d2b86043]
+	GetHandleVerifier [0x0x7ff7d307b9cd+2946349]
+	GetHandleVerifier [0x0x7ff7d3075c4a+2922410]
+	GetHandleVerifier [0x0x7ff7d30959d7+3052855]
+	GetHandleVerifier [0x0x7ff7d2ddaa7e+189918]
+	GetHandleVerifier [0x0x7ff7d2de2a1f+222591]
+	GetHandleVerifier [0x0x7ff7d2dc8ab4+116244]
+	GetHandleVerifier [0x0x7ff7d2dc8c69+116681]
+	GetHandleVerifier [0x0x7ff7d2daf048+11176]
+	BaseThreadInitThunk [0x0x7ffa51f47374+20]
+	RtlUserThreadStart [0x0x7ffa529dcc91+33]
+
+2025-09-11 15:45:06,189 - INFO - Scraping https://saltlakecity.craigslist.org/search/sss?query=home+renovation
+2025-09-11 15:45:09,545 - INFO - Found 0 leads from https://saltlakecity.craigslist.org/search/sss?query=home+renovation
+2025-09-11 15:45:12,740 - INFO - Scraping https://saltlakecity.craigslist.org/search/sss?query=demolition
+2025-09-11 15:45:17,545 - ERROR - Error scraping https://saltlakecity.craigslist.org/search/sss?query=demolition: Message: move target out of bounds
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d2dbfc95+79861]
+	GetHandleVerifier [0x0x7ff7d2dbfcf0+79952]
+	(No symbol) [0x0x7ff7d2b3c8fc]
+	(No symbol) [0x0x7ff7d2bf03fc]
+	(No symbol) [0x0x7ff7d2bbcada]
+	(No symbol) [0x0x7ff7d2be4f8b]
+	(No symbol) [0x0x7ff7d2bbc8b3]
+	(No symbol) [0x0x7ff7d2b85272]
+	(No symbol) [0x0x7ff7d2b86043]
+	GetHandleVerifier [0x0x7ff7d307b9cd+2946349]
+	GetHandleVerifier [0x0x7ff7d3075c4a+2922410]
+	GetHandleVerifier [0x0x7ff7d30959d7+3052855]
+	GetHandleVerifier [0x0x7ff7d2ddaa7e+189918]
+	GetHandleVerifier [0x0x7ff7d2de2a1f+222591]
+	GetHandleVerifier [0x0x7ff7d2dc8ab4+116244]
+	GetHandleVerifier [0x0x7ff7d2dc8c69+116681]
+	GetHandleVerifier [0x0x7ff7d2daf048+11176]
+	BaseThreadInitThunk [0x0x7ffa51f47374+20]
+	RtlUserThreadStart [0x0x7ffa529dcc91+33]
+
+2025-09-11 15:45:17,552 - INFO - Saved cookies for craigslist
+2025-09-11 15:45:19,570 - INFO - Found 0 leads from craigslist
+2025-09-11 15:45:19,571 - INFO - Starting logged-in browser scraping for yellowpages
+2025-09-11 15:45:19,571 - INFO - Browser will stay open for manual interaction
+2025-09-11 15:45:21,987 - INFO - Loaded cookies for yellowpages
+2025-09-11 15:45:21,987 - INFO - Scraping https://www.yellowpages.com/search?search_terms=construction+contractors&geo_location_terms=Utah
+2025-09-11 15:45:25,505 - INFO - Found 0 leads from https://www.yellowpages.com/search?search_terms=construction+contractors&geo_location_terms=Utah
+2025-09-11 15:45:28,578 - INFO - Scraping https://www.yellowpages.com/search?search_terms=demolition+contractors&geo_location_terms=Utah
+2025-09-11 15:45:29,523 - ERROR - Error scraping https://www.yellowpages.com/search?search_terms=demolition+contractors&geo_location_terms=Utah: Message: move target out of bounds
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d2dbfc95+79861]
+	GetHandleVerifier [0x0x7ff7d2dbfcf0+79952]
+	(No symbol) [0x0x7ff7d2b3c8fc]
+	(No symbol) [0x0x7ff7d2bf03fc]
+	(No symbol) [0x0x7ff7d2bbcada]
+	(No symbol) [0x0x7ff7d2be4f8b]
+	(No symbol) [0x0x7ff7d2bbc8b3]
+	(No symbol) [0x0x7ff7d2b85272]
+	(No symbol) [0x0x7ff7d2b86043]
+	GetHandleVerifier [0x0x7ff7d307b9cd+2946349]
+	GetHandleVerifier [0x0x7ff7d3075c4a+2922410]
+	GetHandleVerifier [0x0x7ff7d30959d7+3052855]
+	GetHandleVerifier [0x0x7ff7d2ddaa7e+189918]
+	GetHandleVerifier [0x0x7ff7d2de2a1f+222591]
+	GetHandleVerifier [0x0x7ff7d2dc8ab4+116244]
+	GetHandleVerifier [0x0x7ff7d2dc8c69+116681]
+	GetHandleVerifier [0x0x7ff7d2daf048+11176]
+	BaseThreadInitThunk [0x0x7ffa51f47374+20]
+	RtlUserThreadStart [0x0x7ffa529dcc91+33]
+
+2025-09-11 15:45:29,531 - INFO - Saved cookies for yellowpages
+2025-09-11 15:45:31,541 - INFO - Found 0 leads from yellowpages
+2025-09-11 15:45:31,541 - INFO - No browser leads found, trying traditional scraping...
+2025-09-11 15:45:31,542 - INFO - Attempting to scrape: https://permitsearch.slcgov.com/
+2025-09-11 15:45:35,973 - ERROR - Stealth request failed for https://permitsearch.slcgov.com/: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d2dbfc95+79861]
+	GetHandleVerifier [0x0x7ff7d2dbfcf0+79952]
+	(No symbol) [0x0x7ff7d2b3cada]
+	(No symbol) [0x0x7ff7d2b397e1]
+	(No symbol) [0x0x7ff7d2b2a339]
+	(No symbol) [0x0x7ff7d2b2c111]
+	(No symbol) [0x0x7ff7d2b2a656]
+	(No symbol) [0x0x7ff7d2b2a0a7]
+	(No symbol) [0x0x7ff7d2b29d6b]
+	(No symbol) [0x0x7ff7d2b278dc]
+	(No symbol) [0x0x7ff7d2b2816c]
+	(No symbol) [0x0x7ff7d2b40baa]
+	(No symbol) [0x0x7ff7d2be5d6e]
+	(No symbol) [0x0x7ff7d2bbcada]
+	(No symbol) [0x0x7ff7d2be4f8b]
+	(No symbol) [0x0x7ff7d2bbc8b3]
+	(No symbol) [0x0x7ff7d2b85272]
+	(No symbol) [0x0x7ff7d2b86043]
+	GetHandleVerifier [0x0x7ff7d307b9cd+2946349]
+	GetHandleVerifier [0x0x7ff7d3075c4a+2922410]
+	GetHandleVerifier [0x0x7ff7d30959d7+3052855]
+	GetHandleVerifier [0x0x7ff7d2ddaa7e+189918]
+	GetHandleVerifier [0x0x7ff7d2de2a1f+222591]
+	GetHandleVerifier [0x0x7ff7d2dc8ab4+116244]
+	GetHandleVerifier [0x0x7ff7d2dc8c69+116681]
+	GetHandleVerifier [0x0x7ff7d2daf048+11176]
+	BaseThreadInitThunk [0x0x7ffa51f47374+20]
+	RtlUserThreadStart [0x0x7ffa529dcc91+33]
+
+2025-09-11 15:45:40,028 - INFO - Attempting to scrape: https://www.slc.gov/development-services/building-permits/
+2025-09-11 15:45:46,934 - ERROR - Stealth request failed for https://www.slc.gov/development-services/building-permits/: Message: move target out of bounds
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d2dbfc95+79861]
+	GetHandleVerifier [0x0x7ff7d2dbfcf0+79952]
+	(No symbol) [0x0x7ff7d2b3c8fc]
+	(No symbol) [0x0x7ff7d2bf03fc]
+	(No symbol) [0x0x7ff7d2bbcada]
+	(No symbol) [0x0x7ff7d2be4f8b]
+	(No symbol) [0x0x7ff7d2bbc8b3]
+	(No symbol) [0x0x7ff7d2b85272]
+	(No symbol) [0x0x7ff7d2b86043]
+	GetHandleVerifier [0x0x7ff7d307b9cd+2946349]
+	GetHandleVerifier [0x0x7ff7d3075c4a+2922410]
+	GetHandleVerifier [0x0x7ff7d30959d7+3052855]
+	GetHandleVerifier [0x0x7ff7d2ddaa7e+189918]
+	GetHandleVerifier [0x0x7ff7d2de2a1f+222591]
+	GetHandleVerifier [0x0x7ff7d2dc8ab4+116244]
+	GetHandleVerifier [0x0x7ff7d2dc8c69+116681]
+	GetHandleVerifier [0x0x7ff7d2daf048+11176]
+	BaseThreadInitThunk [0x0x7ffa51f47374+20]
+	RtlUserThreadStart [0x0x7ffa529dcc91+33]
+
+2025-09-11 15:45:50,973 - INFO - Attempting to scrape: https://www.slc.gov/development-services/
+2025-09-11 15:45:58,964 - ERROR - Stealth request failed for https://www.slc.gov/development-services/: Message: move target out of bounds
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d2dbfc95+79861]
+	GetHandleVerifier [0x0x7ff7d2dbfcf0+79952]
+	(No symbol) [0x0x7ff7d2b3c8fc]
+	(No symbol) [0x0x7ff7d2bf03fc]
+	(No symbol) [0x0x7ff7d2bbcada]
+	(No symbol) [0x0x7ff7d2be4f8b]
+	(No symbol) [0x0x7ff7d2bbc8b3]
+	(No symbol) [0x0x7ff7d2b85272]
+	(No symbol) [0x0x7ff7d2b86043]
+	GetHandleVerifier [0x0x7ff7d307b9cd+2946349]
+	GetHandleVerifier [0x0x7ff7d3075c4a+2922410]
+	GetHandleVerifier [0x0x7ff7d30959d7+3052855]
+	GetHandleVerifier [0x0x7ff7d2ddaa7e+189918]
+	GetHandleVerifier [0x0x7ff7d2de2a1f+222591]
+	GetHandleVerifier [0x0x7ff7d2dc8ab4+116244]
+	GetHandleVerifier [0x0x7ff7d2dc8c69+116681]
+	GetHandleVerifier [0x0x7ff7d2daf048+11176]
+	BaseThreadInitThunk [0x0x7ffa51f47374+20]
+	RtlUserThreadStart [0x0x7ffa529dcc91+33]
+
+2025-09-11 15:46:09,936 - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-09-11 15:46:14,731 - INFO - Found 0 construction leads
+2025-09-11 15:46:14,732 - INFO - No real leads found, using realistic sample data for demonstration...
+2025-09-11 15:46:14,732 - INFO - Generating business leads...
+2025-09-11 15:46:14,732 - INFO - Scraping business directories for contractor leads...
+2025-09-11 15:46:47,317 - INFO - Found 0 business leads
+2025-09-11 15:46:47,318 - INFO - Generating residential leads...
+2025-09-11 15:46:47,318 - INFO - Scraping residential project leads...
+2025-09-11 15:46:47,318 - INFO - Scraping Reddit: https://www.reddit.com/r/HomeImprovement/search.json?q=dumpster&sort=new&limit=25
+2025-09-11 15:46:50,749 - INFO - Scraping Reddit: https://www.reddit.com/r/HomeImprovement/search.json?q=renovation&sort=new&limit=25
+2025-09-11 15:46:55,710 - INFO - Scraping Reddit: https://www.reddit.com/r/HomeImprovement/search.json?q=construction&sort=new&limit=25
+2025-09-11 15:46:56,245 - INFO - Found Reddit lead: Reddit User paercebal
+2025-09-11 15:47:00,063 - INFO - Scraping Reddit: https://www.reddit.com/r/Construction/search.json?q=utah&sort=new&limit=25
+2025-09-11 15:47:04,392 - INFO - Scraping Reddit: https://www.reddit.com/r/SaltLakeCity/search.json?q=construction&sort=new&limit=25
+2025-09-11 15:47:04,786 - INFO - Found Reddit lead: Reddit User paercebal
+2025-09-11 15:47:10,095 - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-09-11 15:47:10,111 - INFO - Scraping Craigslist for construction leads...
+2025-09-11 15:47:10,111 - INFO - Scraping Craigslist: https://saltlakecity.craigslist.org/search/sss?query=construction+services
+2025-09-11 15:47:18,409 - INFO - Scraping Craigslist: https://saltlakecity.craigslist.org/search/sss?query=home+renovation
+2025-09-11 15:47:24,781 - INFO - Scraping Craigslist: https://saltlakecity.craigslist.org/search/sss?query=demolition
+2025-09-11 15:47:30,888 - INFO - Found 2 residential leads
+2025-09-11 15:47:30,888 - INFO - Saving 5 leads to database...
+2025-09-11 15:47:31,030 - INFO - Lead generation completed. 5 new leads added.

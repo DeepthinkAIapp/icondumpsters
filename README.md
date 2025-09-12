@@ -4,12 +4,12 @@ A modern, responsive website for Icon Dumpsters, a professional dumpster rental 
 
 ## 🚀 Live Demo
 
-**Production Site**: [https://www.icondumpsters.com](https://www.icondumpsters.com)
+**Production Site**: [https://icondumpsters.com](https://icondumpsters.com)
 
 **Domain Configuration**: 
-- Primary domain: `icondumpsters.com` (redirects to www)
-- Canonical URL: `https://www.icondumpsters.com`
-- All internal links and metadata use the www version for SEO consistency
+- Primary domain: `icondumpsters.com` (non-www)
+- Canonical URL: `https://icondumpsters.com`
+- All internal links and metadata use the non-www version for SEO consistency
 
 ## 🏗️ Tech Stack
 
@@ -111,7 +111,7 @@ npm start
 The site is deployed on Vercel with a custom domain:
 
 1. **Repository**: [https://github.com/DeepthinkAIapp/icondumpsters.git](https://github.com/DeepthinkAIapp/icondumpsters.git)
-2. **Production URL**: [https://www.icondumpsters.com](https://www.icondumpsters.com)
+2. **Production URL**: [https://icondumpsters.com](https://icondumpsters.com)
 3. **Domain Provider**: HostGator
 4. **DNS Configuration**: CNAME pointing to Vercel
 
@@ -121,9 +121,9 @@ NS1566.WEBSITEWELCOME.COM
 
 ### Domain Setup
 - **Primary Domain**: `icondumpsters.com`
-- **WWW Redirect**: Non-www automatically redirects to www
+- **WWW Redirect**: www automatically redirects to non-www (301 redirect)
 - **SSL Certificate**: Automatic HTTPS via Vercel
-- **SEO Optimization**: All internal links use canonical www URLs
+- **SEO Optimization**: All internal links use canonical non-www URLs
 
 ### Vercel Configuration
 - **Framework**: Next.js
@@ -152,7 +152,7 @@ NS1566.WEBSITEWELCOME.COM
 
 ### **SEO & Performance**
 - **Meta Tags**: Proper title and description for all pages
-- **Canonical URLs**: Consistent www URLs across all pages
+- **Canonical URLs**: Consistent non-www URLs across all pages
 - **Sitemap**: Dynamic sitemap generation
 - **Robots.txt**: Proper search engine crawling rules
 - **OpenGraph**: Social media sharing optimization

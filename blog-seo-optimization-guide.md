@@ -211,7 +211,7 @@ const blogData = {
 - **Google PageSpeed Insights**: Monitor performance
 - **SEMrush/Ahrefs**: Keyword research and competitor analysis
 
-## 8. **Blog Post Template System**
+cd## 8. **Blog Post Template System**
 
 ### **🚀 Quick Add Process:**
 1. **Copy template** from `blog-post-template.md`
