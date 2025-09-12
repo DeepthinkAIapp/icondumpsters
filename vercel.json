@@ -1,10 +1,9 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "iconmain/.next",
+  "buildCommand": "cd iconmain && npm run build",
+  "outputDirectory": ".next",
   "framework": "nextjs",
-  "installCommand": "npm install",
-  "devCommand": "npm run dev",
-  "rootDirectory": "iconmain",
+  "installCommand": "cd iconmain && npm install",
+  "devCommand": "cd iconmain && npm run dev",
   "regions": ["iad1"],
   "functions": {
     "app/**/*.tsx": {
